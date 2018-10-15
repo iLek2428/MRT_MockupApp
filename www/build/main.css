@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Kanit:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=thai");
 .ion-ios-add:before {
   content: "\f102";
 }
@@ -3814,6 +3814,11 @@ ion-icon::before {
   font-style: normal;
   font-weight: 700;
   src: local("Noto Sans Bold"), local("Noto-Sans-Bold"), url("../assets/fonts/noto-sans-bold.woff") format("woff"), url("../assets/fonts/noto-sans-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Kanit;
+  src: url("../assets/fonts/kanit.woff2") format("woff2");
 }
 
 ion-action-sheet {
@@ -25707,7 +25712,7 @@ ion-navbar.toolbar {
 
 --------------------------------*/
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Kanit', sans-serif;
 }
 
 *::-webkit-scrollbar {
@@ -28238,18 +28243,20 @@ page-home .home_search_bar .searchbar-input-container .searchbar-search-icon {
 }
 
 page-home .home_search_bar .searchbar-input-container .searchbar-input {
+  font-family: Kanit;
   padding: 0px;
-  height: 50px;
+  height: 30px;
   background-color: rgba(101, 91, 133, 0.5) !important;
   -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 30px;
   background: url("../assets/imgs/search.png");
   background-position: right 15px top 12px !important;
-  background-size: 26px !important;
+  background-size: 10px !important;
   background-repeat: no-repeat !important;
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
+  font-family: Kanit;
   padding-left: 20px;
   font-weight: 500;
   padding-right: 50px;
@@ -28264,6 +28271,7 @@ page-home .home_content {
 }
 
 page-home .home_content .home_menu_banner {
+  font-family: Kanit;
   width: 100%;
 }
 
@@ -28291,6 +28299,7 @@ page-home .home_content .home_menu_banner ul li img {
 }
 
 page-home .home_content .home_menu_banner ul li p {
+  font-family: Kanit;
   padding: 0px;
   margin: 0px;
   color: #797979;
@@ -28345,10 +28354,12 @@ page-home .home_content .home_detail_contents .scroll_section .scroll-x .scroll-
 }
 
 page-home .home_content .home_detail_contents .scroll_section .scroll-x .scroll-content .scroll-zoom-wrapper .row .list .item .item-inner .input-wrapper .label .card .card-content .item_image h3 {
+  font-family: Kanit;
   font-size: 18px;
 }
 
 page-home .home_content .home_detail_contents .scroll_section .scroll-x .scroll-content .scroll-zoom-wrapper .row .list .item .item-inner .input-wrapper .label .card .card-content .item_image h3 strong {
+  font-family: Kanit;
   font-size: 32px;
   margin-right: 5px;
 }
@@ -28635,6 +28646,7 @@ page-login .login_content p strong {
 }
 
 page-mobprepaid .nav_header_title {
+  font-family: "Kanit" !important;
   width: calc(100% - 180px) !important;
 }
 
@@ -28643,6 +28655,7 @@ page-mobprepaid .segement_wrapper {
 }
 
 page-mobprepaid .segement_wrapper h4 {
+  font-family: Kanit;
   color: #4f4f4f;
   font-weight: 300;
   font-size: 26px;
@@ -28650,6 +28663,14 @@ page-mobprepaid .segement_wrapper h4 {
   padding: 0px;
   padding-top: 5px;
   padding-bottom: 15px;
+}
+
+page-mobprepaid .segement_wrapper .button-inner {
+  font-family: Kanit;
+}
+
+page-mobprepaid .segement_wrapper .nav_header_title h5 {
+  font-family: Kanit;
 }
 
 page-mobprepaid .segement_wrapper .segement_tab ul {
@@ -28694,12 +28715,13 @@ page-mobprepaid .segement_wrapper .segement_tab_content .mobile_number {
 }
 
 page-mobprepaid .segement_wrapper .segement_tab_content .mobile_number input {
+  font-family: Kanit;
   width: calc(100% - 80px);
   float: left;
   height: 100%;
   border: none;
   color: #d9d9d9;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 300;
 }
 
@@ -28754,6 +28776,7 @@ page-mobprepaid .segement_wrapper .segement_tab_content .check_payment .label {
 }
 
 page-mobprepaid .segement_wrapper .segement_tab_content .check_payment p {
+  font-family: Kanit;
   margin: 0px;
   padding: 0px;
   color: #a0a0a0;
@@ -28762,6 +28785,7 @@ page-mobprepaid .segement_wrapper .segement_tab_content .check_payment p {
 }
 
 page-mobprepaid .segement_wrapper .segement_tab_content .check_payment p strong {
+  font-family: Kanit;
   color: #666666;
   padding-right: 5px;
   font-weight: 400;
@@ -28783,6 +28807,7 @@ page-mobprepaid .segement_wrapper .segement_tab_content .recent_history {
 }
 
 page-mobprepaid .segement_wrapper .segement_tab_content .recent_history h6 {
+  font-family: Kanit;
   color: #aeaeae;
   font-size: 16px;
 }
@@ -28802,6 +28827,7 @@ page-mobprepaid .segement_wrapper .segement_tab_content .recent_history ul li {
 }
 
 page-mobprepaid .segement_wrapper .segement_tab_content .recent_history ul li h4 {
+  font-family: Kanit;
   margin: 0px;
   padding: 0px;
   text-align: left;
@@ -28837,6 +28863,7 @@ page-mobprepaid .segement_wrapper .segement_tab_content .recent_history ul li .p
 }
 
 page-mobprepaid .segement_wrapper .segement_tab_content .recent_history ul li .payment_detail h5 {
+  font-family: Kanit;
   margin: 0px;
   padding: 0px;
   text-align: left;
@@ -28847,6 +28874,7 @@ page-mobprepaid .segement_wrapper .segement_tab_content .recent_history ul li .p
 }
 
 page-mobprepaid .segement_wrapper .segement_tab_content .recent_history ul li .payment_detail h6 {
+  font-family: Kanit;
   margin: 0px;
   padding: 0px;
   text-align: left;
@@ -28857,6 +28885,7 @@ page-mobprepaid .segement_wrapper .segement_tab_content .recent_history ul li .p
 }
 
 page-mobprepaid .segement_wrapper .segement_tab_content .recent_history ul li .payment_detail p {
+  font-family: Kanit;
   margin: 0px;
   padding: 0px;
   text-align: left;
@@ -28873,6 +28902,7 @@ page-mobprepaid .segement_wrapper .segement_tab_content .recent_history ul li .p
 }
 
 page-mobprepaid .segement_wrapper .segement_tab_content .recent_history ul li .payment_price strong {
+  font-family: Kanit;
   color: #494848;
   font-size: 16px;
 }
@@ -29903,18 +29933,19 @@ page-profile .home_search_bar .searchbar-input-container .searchbar-search-icon 
 }
 
 page-profile .home_search_bar .searchbar-input-container .searchbar-input {
+  font-family: Kanit;
   padding: 0px;
-  height: 40px;
+  height: 30px;
   background-color: rgba(101, 91, 133, 0.5) !important;
   -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 30px;
   background: url("../assets/imgs/search.png");
   background-position: right 15px top 8px !important;
-  background-size: 26px !important;
+  background-size: 10px !important;
   background-repeat: no-repeat !important;
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 20px;
   font-weight: 500;
   padding-right: 50px;
@@ -30919,7 +30950,7 @@ page-success .success_inner h1 {
   margin: 0px;
   padding: 0px;
   font-weight: 300;
-  font-size: 65px;
+  font-size: 100px;
 }
 
 page-success .success_inner h4 {
@@ -30935,7 +30966,7 @@ page-success .success_inner h2 {
   margin: 0px;
   padding: 0px;
   font-weight: 600;
-  font-size: 45px;
+  font-size: 90px;
   padding-bottom: 20px;
 }
 

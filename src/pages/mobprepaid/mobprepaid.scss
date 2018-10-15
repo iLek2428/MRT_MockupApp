@@ -1,10 +1,12 @@
 page-mobprepaid {
   .nav_header_title{
+    font-family: "Kanit" !important;
     width: calc(100% - 180px) !important;
   }
   .segement_wrapper{
     width: 100%;
     h4{
+      font-family: Kanit;
       color: #4f4f4f;
       font-weight: 300;
       font-size:26px;
@@ -12,6 +14,12 @@ page-mobprepaid {
       padding: 0px;
       padding-top: 5px;
       padding-bottom: 15px;
+    }
+    .button-inner{
+      font-family: Kanit;
+    }
+    .nav_header_title h5 {
+      font-family: Kanit;
     }
     .segement_tab{
       ul{
@@ -48,12 +56,13 @@ page-mobprepaid {
         border-bottom: 1px solid #d9d9d9;
         margin-top:15px;
         input{
+          font-family: Kanit;
           width:calc(100% - 80px);
           float: left;
           height: 100%;
           border:none;
           color: #d9d9d9;
-          font-size: 40px;
+          font-size: 25px;
           font-weight: 300;
           &::placeholder{
             color: #d9d9d9;
@@ -92,12 +101,14 @@ page-mobprepaid {
           padding-left:15px;
         }
         p{
+          font-family: Kanit;
           margin:0px;
           padding:0px;
           color: #a0a0a0;
           font-size: 16px;
           font-weight: 400;
           strong{
+            font-family: Kanit;
             color: #666666;
             padding-right:5px;
             font-weight: 400;
@@ -118,6 +129,7 @@ page-mobprepaid {
         width: 100%;
         padding-top: 20px;
         h6{
+          font-family: Kanit;
           color: #aeaeae;
           font-size:16px;
         }
@@ -132,6 +144,7 @@ page-mobprepaid {
             padding-left: 0px;
             padding-right:0px;
             h4{
+              font-family: Kanit;
               margin:0px;
               padding:0px;
               text-align: left;
@@ -161,6 +174,7 @@ page-mobprepaid {
               width:calc(100% - 185px);
               padding-left: 15px;
               h5{
+                font-family: Kanit;
                 margin:0px;
                 padding:0px;
                 text-align: left;
@@ -170,6 +184,7 @@ page-mobprepaid {
                 font-size: 16px;
               }
               h6{
+                font-family: Kanit;
                 margin:0px;
                 padding:0px;
                 text-align: left;
@@ -179,6 +194,7 @@ page-mobprepaid {
                 font-size: 17px;
               }
               p{
+                font-family: Kanit;
                 margin:0px;
                 padding:0px;
                 text-align: left;
@@ -193,6 +209,7 @@ page-mobprepaid {
               float:right;
               text-align: right;
               strong{
+                font-family: Kanit;
                 color: #494848;
                 font-size: 16px;
               }

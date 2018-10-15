@@ -72,7 +72,7 @@ var SuccessPage = /** @class */ (function () {
     };
     SuccessPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-success',template:/*ion-inline-start:"Z:\Codeing\MRT_Plus\MRT_MockupApp\src\pages\success\success.html"*/'<ion-content class="success_outter">\n    <img src="assets/imgs/success.gif">\n    <div class="success_inner">\n        <img src="assets/imgs/book_tick.png">\n        <h1>Your</h1>\n        <h4>Booking was</h4>\n        <h2>Successful!</h2>\n        <button ion-button class="home_btn" (click)="tabs()">Home</button>\n    </div>\n</ion-content>\n<ion-footer padding>\n    <button ion-button class="transfer" (click)="orderdetail()">VIEW ORDERS</button>\n</ion-footer>\n'/*ion-inline-end:"Z:\Codeing\MRT_Plus\MRT_MockupApp\src\pages\success\success.html"*/,
+            selector: 'page-success',template:/*ion-inline-start:"Z:\Codeing\MRT_Plus\MRT_MockupApp\src\pages\success\success.html"*/'<ion-content class="success_outter">\n    <img src="assets/imgs/success.gif">\n    <div class="success_inner">\n        <img src="assets/imgs/book_tick.png">\n        <h1>คุณ</h1>\n        <h4>ชำระเงิน</h4>\n        <h2>สำเร็จ!</h2>\n        <button ion-button class="home_btn" (click)="tabs()">หน้าหลัก</button>\n    </div>\n</ion-content>\n<ion-footer padding>\n    <button ion-button class="transfer" (click)="orderdetail()">รายละเอียด</button>\n</ion-footer>\n'/*ion-inline-end:"Z:\Codeing\MRT_Plus\MRT_MockupApp\src\pages\success\success.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], SuccessPage);

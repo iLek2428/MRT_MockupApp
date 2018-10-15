@@ -2,7 +2,7 @@
     <div class="nav_header">
       <button ion-button class="nav_btn floatLeft nav_back" (click)="back()"></button>
       <div class="nav_header_title floatLeft">
-        <h5>Pay for Phone</h5>
+        <h5>เติมเงินบัตรโดยสาร</h5>
       </div>
       <button ion-button class="nav_btn floatRight nav_option"></button>
       <button ion-button class="nav_btn floatRight nav_search"></button>
@@ -11,76 +11,76 @@
 </ion-header>
 <ion-content padding>
   <div class="segement_wrapper">
-    <h4>Mobile Recharge</h4>
+    <h4>บัตรโดยสารรถไฟฟ้า</h4>
     <div class="segement_tab">
       <ul  radio-group>
-        <li><ion-radio value="1" class="floatLeft" (click)="tab_swap('active')" checked></ion-radio> <ion-label class="floatLeft">Prepaid</ion-label>
+        <li><ion-radio value="1" class="floatLeft" (click)="tab_swap('active')" checked></ion-radio> <ion-label class="floatLeft">MRT</ion-label>
         <div class="clear"></div></li>
-        <li><ion-radio value="2" class="floatLeft" (click)="tab_swap('inactive')"></ion-radio> <ion-label class="floatLeft">Postpaid</ion-label>
+        <li><ion-radio value="2" class="floatLeft" (click)="tab_swap('inactive')"></ion-radio> <ion-label class="floatLeft">BTS</ion-label>
         <div class="clear"></div>
         </li>
       </ul>
     </div>
     <div class="segement_tab_content" [hidden]="tab=='inactive'">
       <div class="mobile_number">
-        <input class="" placeholder="mobile no.">
+        <input class="" placeholder="หมายเลขบัตรโดยสาร">
         <div class="contact">
         </div>
         <div class="clear"></div>
        </div>
        <div class="check_payment">
           <ion-checkbox class="floatLeft"></ion-checkbox>
-          <ion-label class="floatLeft"><p><strong>Instant Payment</strong> From Novero wallet balance</p></ion-label>
+          <ion-label class="floatLeft"><p><strong>จ่ายแบบเร่งด่วน! </strong> โดยใช้กระเป๋า MRT+</p></ion-label>
           <div class="clear"></div>
        </div>
-       <button ion-button class="transfer" (click)="proceed()">Proceed to Recharge</button>
+       <button ion-button class="transfer" (click)="proceed()">ดำเนินการต่อ</button>
        <div class="recent_history">
-         <h6>RECENT</h6>
+         <h6>ล่าสุด</h6>
           <ul>
               <li>
-                <h4>05 Jan 2018</h4>
+                <h4>10 ต.ค. 2561</h4>
                 <div class="payment_circle">
                   <img src="assets/imgs/idea.png">
                 </div>
                 <div class="payment_detail">
-                  <h5>Jinu Samuel</h5>
-                  <h6>+91 9961531199</h6>
-                  <p>09:00 pm</p>
+                  <h5>ดำรงศักดิ์ สัตบุตร</h5>
+                  <h6>123456789</h6>
+                  <p>19:00 น.</p>
                 </div>
                 <div class="payment_price">
-                  <strong>- $ 0.60</strong>
+                  <strong>- ฿ 100</strong>
 
                 </div>
                 <div class="clear"></div>
               </li>
               <li>
-                  <h4>05 Jan 2018</h4>
+                  <h4>6 ต.ค. 2561</h4>
                   <div class="payment_circle">
                       <img src="assets/imgs/vodafone.png">
                   </div>
                   <div class="payment_detail">
-                    <h5>Ann Alex</h5>
-                    <h6>+91 9539757996</h6>
-                    <p>10:00 pm</p>
+                    <h5>ดำรงศักดิ์ สัตบุตร</h5>
+                    <h6>123456789</h6>
+                    <p>15:30 น.</p>
                   </div>
                   <div class="payment_price">
-                    <strong>- $ 1.00</strong>
+                    <strong>- ฿ 500.00</strong>
 
                   </div>
                   <div class="clear"></div>
                 </li>
                 <li>
-                    <h4>05 Jan 2018</h4>
+                    <h4>10 ส.ค. 2561</h4>
                     <div class="payment_circle">
                         <img src="assets/imgs/idea.png">
                     </div>
                     <div class="payment_detail">
-                      <h5>Melissa</h5>
-                      <h6>+97 65896489</h6>
-                      <p>01:00 pm</p>
+                      <h5>ดำรงศักดิ์ สัตบุตร</h5>
+                      <h6>123456789</h6>
+                      <p>21:29 น.</p>
                     </div>
                     <div class="payment_price">
-                      <strong>- $ 2.00</strong>
+                      <strong>- ฿ 300.00</strong>
                     </div>
                     <div class="clear"></div>
                 </li>

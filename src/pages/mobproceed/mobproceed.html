@@ -2,7 +2,7 @@
     <div class="nav_header">
       <button ion-button class="nav_btn floatLeft nav_back" (click)="back()"></button>
       <div class="nav_header_title floatLeft">
-        <h5>Mobile Prepaid</h5>
+        <h5>เติมเงินบัตรโดยสาร</h5>
       </div>
       <button ion-button class="nav_btn floatRight nav_option"></button>
       <button ion-button class="nav_btn floatRight nav_search"></button>
@@ -13,8 +13,8 @@
   <div class="proceed_wrapper">
     <div class="proceed_tab">
       <ul>
-        <li [class.active]="tab == 'active'" (click)="tab_swap('active')">Hot Deals</li>
-        <li [class.active]="tab == 'inactive'" (click)="tab_swap('inactive')">Coupons</li>
+        <li [class.active]="tab == 'active'" (click)="tab_swap('active')">ดีลสุดฮอต</li>
+        <li [class.active]="tab == 'inactive'" (click)="tab_swap('inactive')">คูปอง</li>
       </ul>
     </div>
     <div class="proceed_content" [hidden]="tab=='inactive'">
@@ -24,11 +24,11 @@
 
           </div>
           <div class="detail">
-            <h5>Flat 10% Off</h5>
-            <p>Novero</p>
+            <h5>ใช้งานแอปครั้งแรกลด 10%</h5>
+            <p>MRT+</p>
           </div>
           <div class="add_btn" (click)="promo()">
-Free
+ฟรี
           </div>
           <div class="clear"></div>
         </li>
@@ -37,11 +37,11 @@ Free
 
           </div>
           <div class="detail">
-            <h5>Flat 10% Off</h5>
-            <p>Novero</p>
+            <h5>เติมบัตรโดยสารครั้งแรกลด 10%</h5>
+            <p>MRT</p>
           </div>
           <div class="add_btn" (click)="promo()">
-Free
+ฟรี
           </div>
           <div class="clear"></div>
         </li>
@@ -50,11 +50,11 @@ Free
 
           </div>
           <div class="detail">
-            <h5>Flat 10% Off</h5>
-            <p>Novero</p>
+            <h5>เติมบัตรโดยสารครั้งแรกลด 5%</h5>
+            <p>BTS</p>
           </div>
           <div class="add_btn" (click)="promo()">
-Free
+ฟรี
           </div>
           <div class="clear"></div>
         </li>

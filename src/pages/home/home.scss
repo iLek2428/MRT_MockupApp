@@ -8,17 +8,19 @@ page-home {
                 display: none !important;
             }
             .searchbar-input {
+                font-family: Kanit;
                 padding: 0px;
-                height: 50px;
+                height: 30px;
                 background-color: rgba(101, 91, 133, 0.5) !important;
                 box-shadow: none;
                 border-radius: 30px;
                 background: url('../assets/imgs/search.png');
                 background-position: right 15px top 12px !important;
-                background-size: 26px !important;
+                background-size: 10px !important;
                 background-repeat: no-repeat !important;
                 color: #fff;
-                font-size: 30px;
+                font-size: 20px;
+                font-family: Kanit;
                 padding-left: 20px;
                 font-weight: 500;
                 padding-right: 50px;
@@ -31,6 +33,7 @@ page-home {
     .home_content {
         width: 100%;
         .home_menu_banner {
+            font-family: Kanit;
             width: 100%;
             ul {
                 margin: 0px;
@@ -51,6 +54,7 @@ page-home {
                         width: 24px;
                     }
                     p {
+                        font-family: Kanit;
                         padding: 0px;
                         margin: 0px;
                         color: #797979;
@@ -99,8 +103,10 @@ page-home {
                                                                 background-repeat: no-repeat !important;
                                                                 background-size: 120px !important;
                                                                 h3 {
+                                                                    font-family: Kanit;
                                                                     font-size: 18px;
                                                                     strong {
+                                                                        font-family: Kanit;
                                                                         font-size: 32px;
                                                                         margin-right: 5px;
                                                                     }
