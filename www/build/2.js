@@ -1,6 +1,6 @@
 webpackJsonp([2],{
 
-/***/ 306:
+/***/ 305:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VerifiedPageModule", function() { return VerifiedPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__verified__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__verified__ = __webpack_require__(348);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var VerifiedPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 349:
+/***/ 348:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70,7 +70,7 @@ var VerifiedPage = /** @class */ (function () {
     };
     VerifiedPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-verified',template:/*ion-inline-start:"Z:\Codeing\MRT_Plus\MRT_MockupApp\src\pages\verified\verified.html"*/'\n<ion-content padding class="login_bg">\n    <div class="login_content">\n      <div class="check">\n          <ion-icon name="md-checkmark"></ion-icon>\n      </div>\n      <h5>Successfully!</h5>\n      <h6>verified your mobile number</h6>\n      <br>\n      <br>\n      <button ion-button class="login_btn" (click)="home()">\n        Take me in\n      </button> \n    </div>\n  </ion-content>\n'/*ion-inline-end:"Z:\Codeing\MRT_Plus\MRT_MockupApp\src\pages\verified\verified.html"*/,
+            selector: 'page-verified',template:/*ion-inline-start:"Z:\Codeing\MRT_Plus\MRT_MockupApp\src\pages\verified\verified.html"*/'\n<ion-content padding class="login_bg">\n    <div class="login_content">\n      <div class="check">\n          <ion-icon name="md-checkmark"></ion-icon>\n      </div>\n      <h5>สำเร็จ!</h5>\n      <h6>คุณยืนยันหมายเลขโทรศัพท์เรียบร้อย</h6>\n      <br>\n      <br>\n      <button ion-button class="login_btn" (click)="home()">\n        ไปต่อ\n      </button>\n    </div>\n  </ion-content>\n'/*ion-inline-end:"Z:\Codeing\MRT_Plus\MRT_MockupApp\src\pages\verified\verified.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* ViewController */]])
     ], VerifiedPage);

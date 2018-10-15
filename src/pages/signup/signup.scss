@@ -1,3 +1,9 @@
+@font-face{
+    font-family: Kanit;
+    src: url("../assets/fonts/kanit.woff2") format('woff2');
+
+}
+
 page-signup {
   .scroll-content {
 		align-content: center;
@@ -26,7 +32,8 @@ page-signup {
         padding: 15px;
         h5{
             color: #fff;
-            font-weight: 600;
+            font-family: Kanit;
+            font-weight: 500;
             text-align: left;
             font-size: 32px;
             padding-top:30px;
@@ -48,8 +55,9 @@ page-signup {
                         .input{
                             height:100%;
                             .text-input{
+                                font-family: Kanit;
                                 height:100%;
-                                font-size: 40px;
+                                font-size: 20px;
                                 font-weight: 300;
                                 border-bottom:2px solid #795584;
                                 color: #fff;
@@ -69,15 +77,21 @@ page-signup {
             background: #da1c5c;
             color: #fff;
             font-size: 16px;
+            font-family: Kanit;
             text-transform: capitalize;
+        }
+        .button-inner{
+            font-family: Kanit;
         }
         p{
             color: #a9a6b9;
             text-align: left;
             font-weight: 300;
             font-size: 16px;
+            font-family: Kanit;
 
             strong{
+                font-family: Kanit;
                 color: #fff;
                 font-size: 24px;
                 letter-spacing: 1px;
@@ -92,6 +106,7 @@ page-signup {
     .radio_div{
       padding-bottom: 15px;
       .label {
+        font-family: Kanit;
         margin:0px;
         color: #e9e1ea;
         font-size: 16px;

@@ -1,6 +1,6 @@
 webpackJsonp([15],{
 
-/***/ 292:
+/***/ 293:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProfilePageModule", function() { return ProfilePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile__ = __webpack_require__(335);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile__ = __webpack_require__(336);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var ProfilePageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 335:
+/***/ 336:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -80,7 +80,7 @@ var ProfilePage = /** @class */ (function () {
     };
     ProfilePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-profile',template:/*ion-inline-start:"Z:\Codeing\MRT_Plus\MRT_MockupApp\src\pages\profile\profile.html"*/'<ion-header class="theme_background">\n    <div class="nav_header">\n        <button ion-button class="nav_btn floatLeft nav_menu" menuToggle></button>\n        <div class="nav_header_title floatLeft">\n            <ion-searchbar class="home_search_bar" placeholder="search">\n            </ion-searchbar>\n        </div>\n        <div class="clear"></div>\n    </div>\n</ion-header>\n<ion-content>\n    <div class="profile_wrapper">\n        <div class="profile_banner">\n            <ion-fab bottom right>\n                <button ion-fab class="theme_light" (click)="editprofile()"><ion-icon name="md-create"></ion-icon></button>\n            </ion-fab>\n            <div class="profie_circle">\n\n            </div>\n            <h5>Ann Alexander</h5>\n            <p>annalex@mail.com</p>\n            <hr>\n        </div>\n        <div class="profile_content">\n            <ul>\n                <li class="menu1" (click)="changepass()">Change Password</li>\n                <li class="menu2">Notification</li>\n                <li class="menu3">Wallet</li>\n                <li class="menu4">Shopping</li>\n                <li class="menu5" (click)="address()">Address Book</li>\n                <li class="menu6">Settings</li>\n                <li class="menu7" (click)="logout()">Logout</li>\n            </ul>\n        </div>\n    </div>\n</ion-content>\n'/*ion-inline-end:"Z:\Codeing\MRT_Plus\MRT_MockupApp\src\pages\profile\profile.html"*/,
+            selector: 'page-profile',template:/*ion-inline-start:"Z:\Codeing\MRT_Plus\MRT_MockupApp\src\pages\profile\profile.html"*/'<ion-header class="theme_background">\n    <div class="nav_header">\n        <button ion-button class="nav_btn floatLeft nav_menu" menuToggle></button>\n        <div class="nav_header_title floatLeft">\n            <ion-searchbar class="home_search_bar" placeholder="search">\n            </ion-searchbar>\n        </div>\n        <div class="clear"></div>\n    </div>\n</ion-header>\n<ion-content>\n    <div class="profile_wrapper">\n        <div class="profile_banner">\n            <ion-fab bottom right>\n                <button ion-fab class="theme_light" (click)="editprofile()"><ion-icon name="md-create"></ion-icon></button>\n            </ion-fab>\n            <div class="profie_circle">\n\n            </div>\n            <h5>ดำรงศักดิ์ สัตบุตร</h5>\n            <p>me@dmg.st</p>\n            <hr>\n        </div>\n        <div class="profile_content">\n            <ul>\n                <li class="menu1" (click)="changepass()">เปลี่ยนรหัสผ่าน</li>\n                <li class="menu2">การแจ้งเตือน</li>\n                <li class="menu3">กระเป๋า</li>\n                <li class="menu4">ช๊อปปิ้ง</li>\n                <li class="menu5" (click)="address()">ที่อยู่</li>\n                <li class="menu6">ตั้งค่า</li>\n                <li class="menu7" (click)="logout()">ออกจากระบบ</li>\n            </ul>\n        </div>\n    </div>\n</ion-content>\n'/*ion-inline-end:"Z:\Codeing\MRT_Plus\MRT_MockupApp\src\pages\profile\profile.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]])
     ], ProfilePage);

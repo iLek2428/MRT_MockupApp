@@ -28557,7 +28557,7 @@ page-login .login_content {
 page-login .login_content h5 {
   color: #fff;
   font-family: Kanit;
-  font-weight: 600;
+  font-weight: 500;
   text-align: left;
   font-size: 48px;
   padding-top: 30px;
@@ -28587,7 +28587,7 @@ page-login .login_content .list .item .item-inner .input-wrapper .input {
 
 page-login .login_content .list .item .item-inner .input-wrapper .input .text-input {
   height: 100%;
-  font-size: 30px;
+  font-size: 20px;
   font-family: Kanit;
   font-weight: 300;
   border-bottom: 2px solid #795584;
@@ -29955,6 +29955,7 @@ page-profile .profile_wrapper .profile_banner .profie_circle img {
 }
 
 page-profile .profile_wrapper .profile_banner h5 {
+  font-family: Kanit;
   margin: 0px;
   color: #fff;
   padding-top: 15px;
@@ -29962,6 +29963,7 @@ page-profile .profile_wrapper .profile_banner h5 {
 }
 
 page-profile .profile_wrapper .profile_banner p {
+  font-family: Kanit;
   margin: 0px;
   color: #fff;
   font-size: 14px;
@@ -29969,6 +29971,7 @@ page-profile .profile_wrapper .profile_banner p {
 }
 
 page-profile .profile_wrapper .profile_banner hr {
+  font-family: Kanit;
   margin: 0px;
   padding: 0px;
   border: 2px solid #ffd200;
@@ -29976,6 +29979,10 @@ page-profile .profile_wrapper .profile_banner hr {
   position: relative;
   height: 0px;
   top: 27px;
+}
+
+page-profile .profile_wrapper .button-inner {
+  font-family: Kanit;
 }
 
 page-profile .profile_wrapper .profile_content {
@@ -29989,6 +29996,7 @@ page-profile .profile_wrapper .profile_content ul {
 }
 
 page-profile .profile_wrapper .profile_content ul li {
+  font-family: Kanit;
   list-style: none;
   width: 100%;
   color: #8b8b8b;
@@ -30707,6 +30715,11 @@ page-shop .cart_item ul li .mobile_number .apply {
   padding: 7px;
 }
 
+@font-face {
+  font-family: Kanit;
+  src: url("../assets/fonts/kanit.woff2") format("woff2");
+}
+
 page-signup .scroll-content {
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
@@ -30752,7 +30765,8 @@ page-signup .login_content {
 
 page-signup .login_content h5 {
   color: #fff;
-  font-weight: 600;
+  font-family: Kanit;
+  font-weight: 500;
   text-align: left;
   font-size: 32px;
   padding-top: 30px;
@@ -30780,8 +30794,9 @@ page-signup .login_content .list .item .item-inner .input-wrapper .input {
 }
 
 page-signup .login_content .list .item .item-inner .input-wrapper .input .text-input {
+  font-family: Kanit;
   height: 100%;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 300;
   border-bottom: 2px solid #795584;
   color: #fff;
@@ -30798,7 +30813,12 @@ page-signup .login_content .login_btn {
   background: #da1c5c;
   color: #fff;
   font-size: 16px;
+  font-family: Kanit;
   text-transform: capitalize;
+}
+
+page-signup .login_content .button-inner {
+  font-family: Kanit;
 }
 
 page-signup .login_content p {
@@ -30806,9 +30826,11 @@ page-signup .login_content p {
   text-align: left;
   font-weight: 300;
   font-size: 16px;
+  font-family: Kanit;
 }
 
 page-signup .login_content p strong {
+  font-family: Kanit;
   color: #fff;
   font-size: 24px;
   letter-spacing: 1px;
@@ -30824,6 +30846,7 @@ page-signup .radio_div {
 }
 
 page-signup .radio_div .label {
+  font-family: Kanit;
   margin: 0px;
   color: #e9e1ea;
   font-size: 16px;
@@ -31622,6 +31645,7 @@ page-verified .login_content .arrow_back .icon {
 }
 
 page-verified .login_content h5 {
+  font-family: Kanit;
   color: #fff;
   font-weight: 400;
   text-align: center;
@@ -31629,6 +31653,7 @@ page-verified .login_content h5 {
 }
 
 page-verified .login_content h4 {
+  font-family: Kanit;
   color: #ddd6dd;
   margin: 0px;
   font-size: 24px;
@@ -31637,10 +31662,15 @@ page-verified .login_content h4 {
 }
 
 page-verified .login_content h6 {
+  font-family: Kanit;
   color: #e0dae2;
   margin: 0px;
   font-weight: 400;
   padding-top: 5px;
+}
+
+page-verified .login_content .button-inner {
+  font-family: Kanit;
 }
 
 page-verified .login_content hr {
@@ -31757,14 +31787,16 @@ page-verify .login_content .arrow_back .icon {
 }
 
 page-verify .login_content h5 {
+  font-family: Kanit;
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   font-size: 32px;
   padding-top: 30px;
 }
 
 page-verify .login_content h4 {
+  font-family: Kanit;
   color: #ddd6dd;
   margin: 0px;
   font-size: 24px;
@@ -31773,6 +31805,7 @@ page-verify .login_content h4 {
 }
 
 page-verify .login_content h6 {
+  font-family: Kanit;
   color: #e0dae2;
   margin: 0px;
   font-weight: 400;
@@ -31801,8 +31834,9 @@ page-verify .login_content .list .item .item-inner .input-wrapper .input {
 }
 
 page-verify .login_content .list .item .item-inner .input-wrapper .input .text-input {
+  font-family: Kanit;
   height: 100%;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 300;
   border-bottom: 2px solid #795584;
   color: #fff;
@@ -31823,7 +31857,12 @@ page-verify .login_content .login_btn {
   text-transform: capitalize;
 }
 
+page-verify .login_content .button-inner {
+  font-family: Kanit;
+}
+
 page-verify .login_content p {
+  font-family: Kanit;
   color: #a9a6b9;
   text-align: left;
   font-weight: 300;
@@ -31832,6 +31871,7 @@ page-verify .login_content p {
 }
 
 page-verify .login_content p strong {
+  font-family: Kanit;
   color: #fff;
   font-size: 20px;
   letter-spacing: 1px;

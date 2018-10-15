@@ -34,13 +34,15 @@ page-verify {
             }
         }
         h5{
+            font-family: Kanit;
             color: #fff;
-            font-weight: 600;
+            font-weight: 500;
             text-align:center;
             font-size: 32px;
             padding-top:30px;
         }
         h4{
+            font-family: Kanit;
             color: #ddd6dd;
             margin:0px;
             font-size: 24px;
@@ -48,6 +50,7 @@ page-verify {
             padding-top: 15px;
         }
         h6{
+            font-family: Kanit;
             color: #e0dae2;
             margin:0px;
             font-weight: 400;
@@ -71,8 +74,9 @@ page-verify {
                         .input{
                             height:100%;
                             .text-input{
+                                font-family: Kanit;
                                 height:100%;
-                                font-size: 40px;
+                                font-size: 30px;
                                 font-weight: 300;
                                 border-bottom:2px solid #795584;
                                 color: #fff;
@@ -95,13 +99,18 @@ page-verify {
             font-size: 16px;
             text-transform: capitalize;
         }
+        .button-inner{
+            font-family: Kanit;
+        }
         p{
+            font-family: Kanit;
             color: #a9a6b9;
             text-align: left;
             font-weight: 300;
             font-size: 16px;
             padding-top: 40px;
             strong{
+                font-family: Kanit;
                 color: #fff;
                 font-size: 20px;
                 letter-spacing: 1px;

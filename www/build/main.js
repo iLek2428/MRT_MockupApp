@@ -58,11 +58,11 @@ var map = {
 		34
 	],
 	"../pages/completepayment/completepayment.module": [
-		277,
+		276,
 		33
 	],
 	"../pages/contact/contact.module": [
-		276,
+		277,
 		32
 	],
 	"../pages/editprofile/editprofile.module": [
@@ -78,11 +78,11 @@ var map = {
 		29
 	],
 	"../pages/favourate/favourate.module": [
-		280,
+		281,
 		28
 	],
 	"../pages/filter/filter.module": [
-		281,
+		280,
 		27
 	],
 	"../pages/forgot/forgot.module": [
@@ -90,11 +90,11 @@ var map = {
 		26
 	],
 	"../pages/home/home.module": [
-		298,
+		291,
 		25
 	],
 	"../pages/landing/landing.module": [
-		299,
+		294,
 		24
 	],
 	"../pages/login/login.module": [
@@ -102,11 +102,11 @@ var map = {
 		23
 	],
 	"../pages/mobprepaid/mobprepaid.module": [
-		286,
+		287,
 		22
 	],
 	"../pages/mobproceed/mobproceed.module": [
-		287,
+		286,
 		21
 	],
 	"../pages/orderdetail/orderdetail.module": [
@@ -122,51 +122,51 @@ var map = {
 		18
 	],
 	"../pages/payselection/payselection.module": [
-		291,
+		292,
 		17
 	],
 	"../pages/product/product.module": [
-		300,
+		309,
 		16
 	],
 	"../pages/profile/profile.module": [
-		292,
+		293,
 		15
 	],
 	"../pages/promomodal/promomodal.module": [
-		294,
+		295,
 		14
 	],
 	"../pages/rating/rating.module": [
-		293,
+		296,
 		13
 	],
 	"../pages/result/result.module": [
-		295,
+		297,
 		12
 	],
 	"../pages/searchlist/searchlist.module": [
-		296,
+		299,
 		11
 	],
 	"../pages/seat/seat.module": [
-		297,
+		298,
 		10
 	],
 	"../pages/shop/shop.module": [
-		309,
+		310,
 		9
 	],
 	"../pages/signup/signup.module": [
-		301,
+		302,
 		8
 	],
 	"../pages/success/success.module": [
-		310,
+		300,
 		7
 	],
 	"../pages/tabs/tabs.module": [
-		302,
+		301,
 		6
 	],
 	"../pages/transfer/transfer.module": [
@@ -174,23 +174,23 @@ var map = {
 		5
 	],
 	"../pages/transferfriend/transferfriend.module": [
-		304,
+		308,
 		4
 	],
 	"../pages/travel/travel.module": [
-		305,
+		304,
 		3
 	],
 	"../pages/verified/verified.module": [
-		306,
+		305,
 		2
 	],
 	"../pages/verify/verify.module": [
-		307,
+		306,
 		1
 	],
 	"../pages/wallet/wallet.module": [
-		308,
+		307,
 		0
 	]
 };
@@ -267,41 +267,41 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/boardinginfo/boardinginfo.module#BoardinginfoPageModule', name: 'BoardinginfoPage', segment: 'boardinginfo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/boardingpoint/boardingpoint.module#BoardingpointPageModule', name: 'BoardingpointPage', segment: 'boardingpoint', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/changepassword/changepassword.module#ChangepasswordPageModule', name: 'ChangepasswordPage', segment: 'changepassword', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/contact/contact.module#ContactPageModule', name: 'ContactPage', segment: 'contact', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/completepayment/completepayment.module#CompletepaymentPageModule', name: 'CompletepaymentPage', segment: 'completepayment', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/contact/contact.module#ContactPageModule', name: 'ContactPage', segment: 'contact', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/editprofile/editprofile.module#EditprofilePageModule', name: 'EditprofilePage', segment: 'editprofile', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/fashionstore/fashionstore.module#FashionstorePageModule', name: 'FashionstorePage', segment: 'fashionstore', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/favourate/favourate.module#FavouratePageModule', name: 'FavouratePage', segment: 'favourate', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/filter/filter.module#FilterPageModule', name: 'FilterPage', segment: 'filter', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/favourate/favourate.module#FavouratePageModule', name: 'FavouratePage', segment: 'favourate', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/forgot/forgot.module#ForgotPageModule', name: 'ForgotPage', segment: 'forgot', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/addcart/addcart.module#AddcartPageModule', name: 'AddcartPage', segment: 'addcart', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/electricitybill/electricitybill.module#ElectricitybillPageModule', name: 'ElectricitybillPage', segment: 'electricitybill', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/mobprepaid/mobprepaid.module#MobprepaidPageModule', name: 'MobprepaidPage', segment: 'mobprepaid', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mobproceed/mobproceed.module#MobproceedPageModule', name: 'MobproceedPage', segment: 'mobproceed', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/mobprepaid/mobprepaid.module#MobprepaidPageModule', name: 'MobprepaidPage', segment: 'mobprepaid', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/orderdetail/orderdetail.module#OrderdetailPageModule', name: 'OrderdetailPage', segment: 'orderdetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/orders/orders.module#OrdersPageModule', name: 'OrdersPage', segment: 'orders', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/orgin/orgin.module#OrginPageModule', name: 'OrginPage', segment: 'orgin', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/payselection/payselection.module#PayselectionPageModule', name: 'PayselectionPage', segment: 'payselection', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/profile/profile.module#ProfilePageModule', name: 'ProfilePage', segment: 'profile', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/rating/rating.module#RatingPageModule', name: 'RatingPage', segment: 'rating', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/promomodal/promomodal.module#PromomodalPageModule', name: 'PromomodalPage', segment: 'promomodal', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/result/result.module#ResultPageModule', name: 'ResultPage', segment: 'result', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/searchlist/searchlist.module#SearchlistPageModule', name: 'SearchlistPage', segment: 'searchlist', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/seat/seat.module#SeatPageModule', name: 'SeatPage', segment: 'seat', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/landing/landing.module#LandingPageModule', name: 'LandingPage', segment: 'landing', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/product/product.module#ProductPageModule', name: 'ProductPage', segment: 'product', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/promomodal/promomodal.module#PromomodalPageModule', name: 'PromomodalPage', segment: 'promomodal', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/rating/rating.module#RatingPageModule', name: 'RatingPage', segment: 'rating', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/result/result.module#ResultPageModule', name: 'ResultPage', segment: 'result', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/seat/seat.module#SeatPageModule', name: 'SeatPage', segment: 'seat', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/searchlist/searchlist.module#SearchlistPageModule', name: 'SearchlistPage', segment: 'searchlist', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/success/success.module#SuccessPageModule', name: 'SuccessPage', segment: 'success', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/transfer/transfer.module#TransferPageModule', name: 'TransferPage', segment: 'transfer', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/transferfriend/transferfriend.module#TransferfriendPageModule', name: 'TransferfriendPage', segment: 'transferfriend', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/travel/travel.module#TravelPageModule', name: 'TravelPage', segment: 'travel', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/verified/verified.module#VerifiedPageModule', name: 'VerifiedPage', segment: 'verified', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/verify/verify.module#VerifyPageModule', name: 'VerifyPage', segment: 'verify', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/wallet/wallet.module#WalletPageModule', name: 'WalletPage', segment: 'wallet', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/shop/shop.module#ShopPageModule', name: 'ShopPage', segment: 'shop', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/success/success.module#SuccessPageModule', name: 'SuccessPage', segment: 'success', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/transferfriend/transferfriend.module#TransferfriendPageModule', name: 'TransferfriendPage', segment: 'transferfriend', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/product/product.module#ProductPageModule', name: 'ProductPage', segment: 'product', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/shop/shop.module#ShopPageModule', name: 'ShopPage', segment: 'shop', priority: 'low', defaultHistory: [] }
                     ]
                 })
             ],
