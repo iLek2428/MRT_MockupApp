@@ -1,0 +1,37 @@
+
+<ion-content class="landing_bg">
+    <div class="landing_logo">
+        <img src="assets/imgs/logo.png">
+    </div>
+    <ion-slides (ionSlideDidChange)="slideChanged()" pager="true">
+        <ion-slide>
+          <div class="landing_wrapper">
+            <div class="landing_content">
+                <img src="assets/imgs/landing1.png">
+                <p><strong>MRT+</strong> แอปเดียวจบ ครบเครื่องเรื่องรถไฟฟ้า</p>
+            </div>
+          </div>
+        </ion-slide>
+        <ion-slide>
+            <div class="landing_wrapper">
+                <div class="landing_content">
+                    <img src="assets/imgs/landing2.png">
+                    <p><strong>MRT+</strong> ซื้อตั๋ว เติมบัตรโดยสาร ก็เป็นเพียงเรื่องง่าย ๆ</p>
+                </div>
+              </div>
+        </ion-slide>
+        <ion-slide>
+            <div class="landing_wrapper">
+                <div class="landing_content">
+                    <img src="assets/imgs/landing3.png">
+                    <p><strong>MRT+</strong> โลกของการเดินทาง สั่งได้ด้วยปลายนิ้วคุณ</p>
+                </div>
+              </div>
+        </ion-slide>
+      </ion-slides>
+      <div class="landing_bottom">
+        <button ion-button class="skip bottom_btn" [hidden] = "currentIndex == 2"  (click)="goToNextSlide()">ถัดไป</button>
+        <button ion-button class="continue bottom_btn" [hidden] = "currentIndex != 2" (click)="login()">ดำเนินการต่อ</button>
+       </div>
+</ion-content>
+
