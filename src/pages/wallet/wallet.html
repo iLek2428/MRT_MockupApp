@@ -2,7 +2,7 @@
     <div class="nav_header">
         <button ion-button class="nav_btn floatLeft nav_menu" menuToggle></button>
         <div class="nav_header_title floatLeft">
-            <h5>Wallet</h5>
+            <h5>กระเป๋า MRT+</h5>
         </div>
         <button ion-button class="nav_btn floatRight nav_option"></button>
         <button ion-button class="nav_btn floatRight nav_search"></button>
@@ -11,22 +11,22 @@
 </ion-header>
 <ion-content>
     <div class="wallet_wrapper">
-        <h6>Novero wallet balance</h6>
-        <h1>1000.00</h1>
-        <h4>in INR</h4>
+        <h6>ยอดเงินคงเหลือ</h6>
+        <h1>888,888.00</h1>
+        <h4>บาท</h4>
         <div class="textCenter" padding>
-            <button ion-button class="pay_now" (click)="pay()">Pay now</button>
-            <button ion-button class="add_money">Add money</button>
+            <button ion-button class="pay_now" (click)="pay()">ชำระ</button>
+            <button ion-button class="add_money">เติมเงิน</button>
         </div>
         <div class="wallet_tab_bay">
             <ul>
-                <li [class.active]="tab == 'all'" (click)="tab_swap('all')">All
+                <li [class.active]="tab == 'all'" (click)="tab_swap('all')">ทั้งหมด
                     <hr>
                 </li>
-                <li [class.active]="tab == 'receive'" (click)="tab_swap('receive')">Received
+                <li [class.active]="tab == 'receive'" (click)="tab_swap('receive')">รายการเข้า
                     <hr>
                 </li>
-                <li [class.active]="tab == 'sent'" (click)="tab_swap('sent')">Sent
+                <li [class.active]="tab == 'sent'" (click)="tab_swap('sent')">รายการออก
                     <hr>
                 </li>
             </ul>
@@ -34,65 +34,65 @@
         <div class="wallet_tab_content" [hidden]="tab !='all'">
             <ul>
                 <li>
-                    <h4>05 Jan 2018</h4>
+                    <h4>5 พ.ย. 2561</h4>
                     <div class="payment_circle debit">
 
                     </div>
                     <div class="payment_detail">
-                        <h5>Paid for order</h5>
-                        <h6># 5568987</h6>
-                        <p>09:00 pm</p>
+                        <h5>เติมเงินบัตรโดยสาร MRT</h5>
+                        <h6># 5568999</h6>
+                        <p>09:00 น.</p>
                     </div>
                     <div class="payment_price">
-                        <strong>- $ 5.60</strong>
+                        <strong>- ฿ 100.00</strong>
 
                     </div>
                     <div class="clear"></div>
                 </li>
                 <li>
-                    <h4>05 Jan 2018</h4>
+                    <h4>13 ต.ค. 2561</h4>
                     <div class="payment_circle credit ">
 
                     </div>
                     <div class="payment_detail">
-                        <h5>Paid for order</h5>
-                        <h6># 5568987</h6>
-                        <p>09:00 pm</p>
+                        <h5>เติมเงินบัตรโดยสาร BTS</h5>
+                        <h6># 5568982</h6>
+                        <p>13:00 น.</p>
                     </div>
                     <div class="payment_price">
-                        <strong>- $ 5.60</strong>
+                        <strong>- ฿ 300.00</strong>
 
                     </div>
                     <div class="clear"></div>
                 </li>
                 <li>
-                    <h4>05 Jan 2018</h4>
+                    <h4>25 ก.ย. 2561</h4>
                     <div class="payment_circle debit">
 
                     </div>
                     <div class="payment_detail">
-                        <h5>Paid for order</h5>
-                        <h6># 5568987</h6>
-                        <p>09:00 pm</p>
+                        <h5>ซื้อบัตรโดยสารรถเมล์</h5>
+                        <h6># 5568952</h6>
+                        <p>19:30 น.</p>
                     </div>
                     <div class="payment_price">
-                        <strong>- $ 5.60</strong>
+                        <strong>- ฿ 19.00</strong>
 
                     </div>
                     <div class="clear"></div>
                 </li>
                 <li>
-                    <h4>05 Jan 2018</h4>
+                    <h4>10 ส.ค. 2561</h4>
                     <div class="payment_circle debit">
 
                     </div>
                     <div class="payment_detail">
-                        <h5>Paid for order</h5>
-                        <h6># 5568987</h6>
-                        <p>09:00 pm</p>
+                        <h5>ชำระค่าโดยสารด้วย QR</h5>
+                        <h6># 5568923</h6>
+                        <p>05:40 น.</p>
                     </div>
                     <div class="payment_price">
-                        <strong>- $ 5.60</strong>
+                        <strong>- ฿ 40.00</strong>
 
                     </div>
                     <div class="clear"></div>
@@ -101,12 +101,79 @@
         </div>
         <div class="wallet_tab_content" [hidden]="tab !='receive'">
             <div class="on_demo">
-                <img src="assets/imgs/error.png"><br> This content is not available on demo
+               <ul>
+                    <li>
+                            <h4>13 ต.ค. 2561</h4>
+                            <div class="payment_circle credit ">
+        
+                            </div>
+                            <div class="payment_detail">
+                                <h5>เติมเงินบัตรโดยสาร BTS</h5>
+                                <h6># 5568982</h6>
+                                <p>13:00 น.</p>
+                            </div>
+                            <div class="payment_price">
+                                <strong>- ฿ 300.00</strong>
+        
+                            </div>
+                            <div class="clear"></div>
+                    </li>
+               </ul>
+
             </div>
         </div>
         <div class="wallet_tab_content" [hidden]="tab !='sent'">
             <div class="on_demo">
-                <img src="assets/imgs/error.png"><br> This content is not available on demo
+                <ul>
+                <li>
+                    <h4>5 พ.ย. 2561</h4>
+                    <div class="payment_circle debit">
+
+                    </div>
+                    <div class="payment_detail">
+                        <h5>เติมเงินบัตรโดยสาร MRT</h5>
+                        <h6># 5568999</h6>
+                        <p>09:00 น.</p>
+                    </div>
+                    <div class="payment_price">
+                        <strong>- ฿ 100.00</strong>
+                    </div>
+                    <div class="clear"></div>
+                </li>
+                <li>
+                        <h4>25 ก.ย. 2561</h4>
+                        <div class="payment_circle debit">
+    
+                        </div>
+                        <div class="payment_detail">
+                            <h5>ซื้อบัตรโดยสารรถเมล์</h5>
+                            <h6># 5568952</h6>
+                            <p>19:30 น.</p>
+                        </div>
+                        <div class="payment_price">
+                            <strong>- ฿ 19.00</strong>
+    
+                        </div>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <h4>10 ส.ค. 2561</h4>
+                        <div class="payment_circle debit">
+    
+                        </div>
+                        <div class="payment_detail">
+                            <h5>ชำระค่าโดยสารด้วย QR</h5>
+                            <h6># 5568923</h6>
+                            <p>05:40 น.</p>
+                        </div>
+                        <div class="payment_price">
+                            <strong>- ฿ 40.00</strong>
+    
+                        </div>
+                        <div class="clear"></div>
+                    </li>    
+                </ul>
+                    
             </div>
         </div>
     </div>

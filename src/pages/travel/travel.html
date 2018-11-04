@@ -3,7 +3,7 @@
         <button class="nav_btn nav_back_dark floatLeft" (click)="back()">
         </button>
         <div class="nav_header_title floatLeft">
-            <h5>Travel</h5>
+            <h5>ท่องเที่ยว</h5>
         </div>
         <button class="nav_btn nav_search_dark floatRight">
           </button>
@@ -27,16 +27,16 @@
     </div>
     <div class="travel_tab_bay">
         <ul>
-            <li [class.active]="tab == 'flight'" (click)="tab_swap('flight')">Flight
+            <li [class.active]="tab == 'flight'" (click)="tab_swap('flight')">เครื่องบิน
                 <hr>
             </li>
-            <li [class.active]="tab == 'bus'" (click)="tab_swap('bus')">Bus
+            <li [class.active]="tab == 'bus'" (click)="tab_swap('bus')">รถโดยสารประจำทาง
                 <hr>
             </li>
-            <li [class.active]="tab == 'train'" (click)="tab_swap('train')">Train
+            <li [class.active]="tab == 'train'" (click)="tab_swap('train')">รถไฟ
                 <hr>
             </li>
-            <li [class.active]="tab == 'cab'" (click)="tab_swap('cab')">Cab
+            <li [class.active]="tab == 'cab'" (click)="tab_swap('cab')">รถโดยสารส่วนบุคคล
                 <hr>
             </li>
         </ul>
@@ -45,11 +45,11 @@
         <div class="relative">
             <div class="arrow">
             </div>
-            <ion-input type="text" placeholder="From" class="from"></ion-input>
-            <ion-input type="text" placeholder="To" class="to"></ion-input>
-            <h6>DEPARTURE DATE</h6>
+            <ion-input type="text" placeholder="จาก" class="from"></ion-input>
+            <ion-input type="text" placeholder="ถึง" class="to"></ion-input>
+            <h6>วันเดินทาง</h6>
             <ion-item>
-              <ion-datetime displayFormat="DD-MM-YYYY" placeholder="Date"></ion-datetime>
+              <ion-datetime displayFormat="DD-MM-YYYY" placeholder="วันที่"></ion-datetime>
             </ion-item>
         </div>
     </div>
@@ -74,5 +74,5 @@
   </div>
 </ion-content>
 <ion-footer padding>
-<button ion-button class="login_btn" (click)="search()">Search Ride</button>
+<button ion-button class="login_btn" (click)="search()">ค้นหา</button>
 </ion-footer>
